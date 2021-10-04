@@ -2,12 +2,11 @@ num_max = 100
 
 def fizz_buzz(num)
   if num % 15 == 0
-    "fizzbuzz"
+    "FizzBuzz"
   elsif num % 3 == 0
-    "fizz"
+    "Fizz"
   elsif num % 5 == 0
-    "buzz"
-    
+    "Buzz"
   else
     num
   end 
